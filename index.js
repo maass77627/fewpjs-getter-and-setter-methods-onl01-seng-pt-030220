@@ -6,7 +6,7 @@ class Circle {
   }
 
     set diameter(radius) {
-      this._diameter = radius + radius
+      this._diameter = radius += radius
     }
 
     set circumference(radius) {
