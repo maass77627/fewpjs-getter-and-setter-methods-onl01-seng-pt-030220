@@ -15,6 +15,7 @@ class Circle {
     }
 
     set area(radius) {
+      this._area = Math.PI * radius**2
 
     }
 
