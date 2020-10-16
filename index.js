@@ -9,10 +9,10 @@ class Circle {
       this._diameter = radius*2
     }
 
-    set circumference(radius) {
-      this.circumference = 2*Math.PI*radius
-
-    }
+    // set circumference(radius) {
+    //   this.circumference = 2*Math.PI*radius
+    // 
+    // }
 
     set area(radius) {
       this._area = Math.PI*radius**2
