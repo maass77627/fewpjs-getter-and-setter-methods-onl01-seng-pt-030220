@@ -5,9 +5,21 @@ class Circle {
     this.radius = radius
   }
 
+    set diameter(radius) {
+      this._diameter = radius**2
+    }
+
+    set circumference(radius) {
+      
+    }
+
+    set area(radius) {
+      
+    }
+
   get diameter() {
 
-    this.radius**2
+    return this._diameter
 
   }
 
