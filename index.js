@@ -26,11 +26,11 @@ class Circle {
   }
 
   get circumference() {
-
+    return this._circumference
   }
 
   get area() {
-
+    return this._area
   }
 
 
