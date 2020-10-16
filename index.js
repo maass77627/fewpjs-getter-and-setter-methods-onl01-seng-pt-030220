@@ -6,16 +6,16 @@ class Circle {
   }
 
     set diameter(radius) {
-      this._diameter = radius * 2
+      this._diameter = radius*2
     }
 
     set circumference(radius) {
-      this.circumference = 2*(Math.PI * radius)
+      this.circumference = 2*Math.PI*radius
 
     }
 
     set area(radius) {
-      this._area = Math.PI * radius**2
+      this._area = Math.PI*radius**2
 
     }
 
