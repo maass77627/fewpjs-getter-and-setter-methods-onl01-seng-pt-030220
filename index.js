@@ -7,6 +7,8 @@ class Circle {
 
   get diameter() {
 
+    this.radius + this.radius
+
   }
 
   get circumference() {
